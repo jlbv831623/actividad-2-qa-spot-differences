@@ -64,3 +64,36 @@ Generate a diff image.
 Interpret UI differences in a QA context.
 
 Document the process and findings in this repository.
+
+2️⃣ Part 2 – Spot the Differences README.md**
+
+```markdown
+# Part 2 - Spot the Differences
+
+## Overview
+This task identifies visual differences between two images and optionally highlights them using an image comparison script.
+
+### Files
+- `compare.js` → Script to detect differences between images
+- `images/` → Contains `original.png`, `modified.png`, and optionally `diff.png`
+
+### Bonus
+- A script that automatically generates a diff image highlighting differences
+
+## Tools / Libraries
+- Node.js v18+ (if using JavaScript)
+- Libraries: OpenCV, Pillow, or Resemble.js
+
+## Setup Requirements
+- Install Node.js and npm (if using JS)
+- Ensure the images are placed in the `images/` folder
+- Install dependencies:
+  ```bash
+  npm install
+How to Run
+bash
+Copiar código
+node compare.js
+The script outputs a diff image showing differences (optional)
+
+
