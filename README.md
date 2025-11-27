@@ -65,10 +65,8 @@ Interpret UI differences in a QA context.
 
 Document the process and findings in this repository.
 
-Spot the Differences README.md**
 
-```markdown
-# Part 2 - Spot the Differences
+Spot the Differences
 
 ## Overview
 This task identifies visual differences between two images and optionally highlights them using an image comparison script.
