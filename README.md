@@ -65,7 +65,7 @@ Interpret UI differences in a QA context.
 
 Document the process and findings in this repository.
 
-2️⃣ Part 2 – Spot the Differences README.md**
+Spot the Differences README.md**
 
 ```markdown
 # Part 2 - Spot the Differences
@@ -88,11 +88,9 @@ This task identifies visual differences between two images and optionally highli
 - Install Node.js and npm (if using JS)
 - Ensure the images are placed in the `images/` folder
 - Install dependencies:
-  ```bash
+  
   npm install
 How to Run
-bash
-Copiar código
 node compare.js
 The script outputs a diff image showing differences (optional)
 
